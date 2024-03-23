@@ -1,0 +1,2 @@
+# stroke
+polindrom and vowels
