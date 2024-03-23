@@ -8,7 +8,7 @@ int main()
     const int N = 12;
     char vowel[N] = { 'A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'U', 'u', 'Y', 'y' };
     string str;
-    cout << "Введите строку из символов (латинские буквы):" << endl;
+    cout << "Enter the string" << endl;
     getline(cin, str);
     int kolichestvo = 0;
     for (int i = 0; str[i]; i++)
@@ -20,8 +20,8 @@ int main()
         }
     }
     if (kolichestvo)
-        cout << "Количество гласных символов: " << kolichestvo << endl;
+        cout << "Nomber of vowels: " << kolichestvo << endl;
     else
-        cout << "Гласных символов не найдено!" << endl;
+        cout << "No vowels" << endl;
     return 0;
 }
