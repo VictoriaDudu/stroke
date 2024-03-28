@@ -22,6 +22,6 @@ int main()
     if (kolichestvo)
         cout << "number of vowels: " << kolichestvo << endl;
     else
-        cout << "not number of vowels" << endl;
+        cout << "no vowels" << endl;
     return 0;
 }
